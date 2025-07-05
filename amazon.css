@@ -1,0 +1,263 @@
+*{
+    border: border-box;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.navbar{
+background-color: black;
+height: 65px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.logo{
+    background-image: url("logo.png");
+    background-size:cover;
+    height: 50px;
+    width:100%;
+    
+}
+
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 1 rem;
+    margin-left: 3px;
+}
+
+.addressicon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    background-color: darkgoldenrod;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #f6f6f6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+     border:none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+        border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+     color: black;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}
+
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.navcart i{
+   font-size: 30px;
+
+}
+
+.navcart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel{
+    background-color: rgba(0, 0, 0, 0.849);
+    height: 40px;
+    display: flex;
+   color: #FFFFFF;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+ .hero{
+    height:380px;
+   
+    background-image: url("amazon.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} 
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+    
+}
+
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box{
+    height: 400px;
+    
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+
+.box-img{
+    height: 300px;
+    background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+   
+}
+
+.box-content p{
+ color:#007185;
+}
+
+footer{
+    margin-top: 15px;
+}
+.foot-p1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-p2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-p3{
+background-color: #222f3d;
+border-top: 0.5px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo{
+     background-image: url("logo.png");
+    background-size:cover;
+    height: 50px;
+    width:100px;
+}
+
+.foot-p4{
+background-color: #0f1111;
+border-top: 0.5px solid white;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+color: white;
+height: 100px;
+font-size: 0.7rem;
+text-align: center;
+}
+
+
+
+.copyright{
+
+padding-top: 5px;
+}
